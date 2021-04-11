@@ -4,7 +4,7 @@ function clear_screen() {
 function setDimensions() {
   if (screen.width <= 428) {
     canvas.width = screen.width-50;
-    document.body.style.overflowX = "hidden";
+    document.body.style.overflow = "hidden";
     document.body.style.width=screen.width;
   }
 }
